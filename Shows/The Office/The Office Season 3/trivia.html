@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+</head>
+
+<body>
+    <button onclick="window.history.back();">Go Back</button>
+
+    <h1 id="episodeTitle"></h1>
+    <div id="content"></div>
+    
+    <script>
+        // Read the URL parameters
+        const urlParams = new URLSearchParams(window.location.search);
+        const fileName = urlParams.get("Markdown");
+        const episodeName = urlParams.get("Episode");
+
+        // Set the document title and episode heading
+        document.title = episodeName;
+        document.getElementById('episodeTitle').innerText = episodeName;
+
+        fetch(fileName)
+            .then(response => response.text())
+            .then(text => {
+                // Convert markdown to HTML
+                const html = marked.parse(text);
+
+                // Insert the generated HTML into a div with id 'content'
+                document.getElementById('content').innerHTML = html;
+            });
+    </script>
+
+
+</body>
+
+</html>
