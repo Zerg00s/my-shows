@@ -101,7 +101,7 @@ foreach ($show in $shows) {
     $indexContent = Get-Content -Path $showIndexPath -Raw
 
     # Replace the placeholder with the list
-    $newContent = $indexContent -replace '(?s)(<div id="seasons">).*?(</div>)', "`$1$ul`$2"
+    $newContent = $indexContent -replace '(?s)(<div id="seasons" class="mt-4">).*?(</div>)', "`$1$ul`$2"
 
     # Write the updated content back to the index.html file
     Set-Content -Path $showIndexPath -Value $newContent
@@ -164,7 +164,7 @@ foreach ($show in $shows) {
 
             foreach ($episode in $episodes) {
                 # Create an HTML list item for each episode
-                $html += "<li> $($episode.EpisodeNumber) - <a href=`"$($episode.FileName)`">$($episode.EpisodeTitle) - $($episode.AirDate)</a> - <a href='trivia.html?Markdown=$($episode.FileName).md&Episode=$($episode.EpisodeNumber) - $($episode.EpisodeTitle)'>Trivia</a></li>"
+                $html += "<li> $($episode.EpisodeNumber) - <a href=`"$($episode.FileName)`">$($episode.EpisodeTitle) - $($episode.AirDate)</a> - <a style='margin:20px' class='btn btn-secondary' href='trivia.html?Markdown=$($episode.FileName).md&Episode=$($episode.EpisodeNumber) - $($episode.EpisodeTitle)'>View Trivia</a></li>"
             }
 
             # Close the unordered list
@@ -176,10 +176,10 @@ foreach ($show in $shows) {
             $htmlContent = Get-Content -Path $seasonIndexPath -Raw
 
             # Placeholder for the episodes <div>
-            $placeholder = '<div id="episodes"></div>'
+            $placeholder = '<div id="episodes" class="mt-4"></div>'
 
             # Construct the new HTML block with the episode list
-            $newContent = "<div id=`"episodes`">$html</div>"
+            $newContent = "<div id=`"episodes`" class=`"mt-4`"></div>$html</div>"
 
             # Replace the placeholder with the new content
             $newHtmlContent = $htmlContent -replace $placeholder, $newContent
