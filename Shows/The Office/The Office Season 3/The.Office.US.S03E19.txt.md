@@ -1,4 +1,4 @@
-﻿**Cultural references that I might not understand:**
+﻿**Cultural references**
 
 1. Amish shunning: The Amish practice of shunning is a form of church discipline applied to those who violate the community's rules and refuse to repent. The individual is avoided by other community members to encourage repentance.
 
@@ -12,7 +12,7 @@
 
 6. Letterman style: This refers to comedian David Letterman, who was known for his late-night talk shows where he often included segments featuring humorous or absurd stunts, such as throwing a TV off a roof.
 
-**Rare words or terms that I might not understand:**
+**Rare words or terms**
 
 1. "Zoppity": A nonsense word used by Michael in this context to mean something like "exciting" or "fun."
 
@@ -20,11 +20,11 @@
 
 3. "Shun" and "Un-shun": Dwight is using these words to denote the start and end of his practice of shunning Andy.
 
-**Places that have been mentioned:**
+**Places that have been mentioned**
 
 1. The office's upstairs and warehouse: These are sections of the Dunder Mifflin Scranton branch where the events of the script are happening.
 
-**Interesting facts that I might not know:**
+**Interesting facts:**
 
 1. Amish shunning: As mentioned before, it's a cultural practice in the Amish community. 
 
@@ -32,13 +32,13 @@
 
 3. Carpal tunnel syndrome: This is a common condition that causes pain, numbness, and tingling in the hand and arm. It often occurs in people who perform repetitive motions of the hand and wrist, like typing.
 
-**Funny jokes that I might not get:**
+**Funny jokes**
 
 1. "Bale 'er? I hardly know her": This is a form of wordplay where the speaker pretends to misunderstand a word ("baler") as a phrase that would be inappropriate in context ("bale her"). The humor comes from the absurdity of the speaker's pretend mistake.
 
 2. Michael's "Hello, I'm Michael. Welcome to Men's Wearhouse. We have a special on khaki pants today." is humorously mundane and contrasts to the intense warehouse work Darryl has been describing.
 
-**Brands that have been mentioned:**
+**Brands that have been mentioned**
 
 1. Men's Wearhouse: A chain of men's tailoring shops in the US.
 
